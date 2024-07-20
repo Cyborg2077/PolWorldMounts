@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "jR2cTFO/S/A=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\15863\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PolWorldMounts\\PolWorldMounts.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "本地源“C:\\Users\\15863\\Desktop\\NuGetPackages”不存在。",
+      "libraryId": "tModLoader.CodeAssist"
+    }
+  ]
+}

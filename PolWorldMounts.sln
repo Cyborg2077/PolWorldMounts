@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolWorldMounts", "PolWorldMounts.csproj", "{4B531D22-B481-4B2A-9AAF-923DBF90CABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B531D22-B481-4B2A-9AAF-923DBF90CABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B531D22-B481-4B2A-9AAF-923DBF90CABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B531D22-B481-4B2A-9AAF-923DBF90CABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B531D22-B481-4B2A-9AAF-923DBF90CABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E4EC98A-C9DF-475F-96AA-825279326A32}
+	EndGlobalSection
+EndGlobal

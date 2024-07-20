@@ -1,0 +1,13 @@
+Items: {
+	FenglopeMountItem: {
+		Tooltip: ""
+		DisplayName: 出来吧 云海鹿！！
+	}
+}
+
+Buffs: {
+	FenglopeMountBuff: {
+		Description: 该生物正在骑着云海鹿兜风，芜湖~
+		DisplayName: 云海鹿
+	}
+}
