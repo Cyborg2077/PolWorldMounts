@@ -98,7 +98,8 @@ namespace PolWorldMounts.Content.Mounts
                     NPC target = Main.npc[i];
                     if (target.active && !target.friendly && target.Hitbox.Intersects(hitbox))
                     {
-                        NPC.HitInfo hitInfo = new NPC.HitInfo{
+                        NPC.HitInfo hitInfo = new NPC.HitInfo
+                        {
                             Damage = DashDamage,
                             Knockback = DashKnockBack,
                             HitDirection = player.direction
@@ -114,13 +115,13 @@ namespace PolWorldMounts.Content.Mounts
                     Dust.NewDust(dustPosition, 0, 0, DustID.Snow, player.velocity.X * 0.5f, player.velocity.Y * 0.5f, 100, default, 1.5f);
                 }
             }
-            else if (dashCooldown == 0)
+            else if (dashCooldown == 0 && !player.HasBuff(ModContent.BuffType<Buffs.FenglopeExhaustedBuff>()))
             {
-                // 检测冲刺按键 (例如 X 键)
                 if (PlayerInput.Triggers.JustPressed.MouseRight)
                 {
                     dashTimeLeft = DashDuration;
                     dashCooldown = DashCooldown;
+                    player.AddBuff(ModContent.BuffType<Buffs.FenglopeExhaustedBuff>(), 600);
                 }
             }
         }

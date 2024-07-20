@@ -10,6 +10,11 @@ Buffs: {
 		Description: 该生物正在骑着云海鹿兜风，芜湖~
 		DisplayName: 云海鹿
 	}
+
+	FenglopeExhaustedBuff: {
+		Description: 云海鹿刚刚冲刺完，现在需要休息一下。
+		DisplayName: 筋疲力尽
+	}
 }
 
 Projectiles.PlayerAfterimage.DisplayName: Player Afterimage
