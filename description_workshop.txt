@@ -10,7 +10,12 @@ v0.2 Update
 Dash with Right-Click: Players can now dash by single-clicking the right mouse button. The dash has a cooldown of 10 seconds.
 Collision Damage and Knockback: Dashing now deals 50 collision damage and knockback to enemies.
 
+Update v0.3
+Double jumping no longer requires the Cloud in a Bottle.
+Base speed increased to 77, dash speed remains unchanged.
+
 ---------------------
+
 幻兽帕鲁云海鹿Mod，制作材料：10个木材 + 10个石头 + 5个蓝宝石
 如果你装备云朵瓶或者其他可以增加跳跃次数的视频，云海鹿同样能享受到额外的跳跃次数
 如果你装备水上漂靴，云海鹿同样可以水上漂
@@ -18,3 +23,7 @@ Collision Damage and Knockback: Dashing now deals 50 collision damage and knockb
 v0.2更新
 1. 单击鼠标右键进行冲刺，冲刺拥有10秒CD
 1. 新增冲刺状态下50点碰撞伤害和击退
+
+v0.3更新
+1. 不再需要云朵瓶来进行二段跳
+2. 常态速度提高为77，冲刺速度不变
