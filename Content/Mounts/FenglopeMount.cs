@@ -1,11 +1,26 @@
-using System.Linq;
+using Microsoft.Xna.Framework;
 using Terraria;
 using Terraria.ModLoader;
+using Terraria.ID;
+using Terraria.GameInput;
+using System.Linq;
+using Microsoft.Build.Evaluation;
 
 namespace PolWorldMounts.Content.Mounts
 {
     public class FenglopeMount : ModMount
     {
+        private const int DashCooldown = 60; // 冲刺冷却时间，单位：帧
+        private const int DashDuration = 120; // 冲刺持续时间，单位：帧
+        private const float DashSpeed = 30f; // 冲刺速度
+        private const int DashDamage = 50; // 冲刺造成的伤害
+        private const float DashKnockBack = 10f; // 冲刺造成的击退力
+
+
+
+        private int dashTimeLeft = 0;
+        private int dashCooldown = 0;
+
         public override void SetStaticDefaults()
         {
             MountData.jumpHeight = 20; // How high the mount can jump.
@@ -31,7 +46,7 @@ namespace PolWorldMounts.Content.Mounts
             MountData.xOffset = 20;
             MountData.yOffset = -12;
             MountData.playerHeadOffset = 22;
-            MountData.bodyFrame = 3;
+            MountData.bodyFrame = 0;
             // Standing
             MountData.standingFrameCount = 0;
             MountData.standingFrameDelay = 12;
@@ -62,6 +77,51 @@ namespace PolWorldMounts.Content.Mounts
             {
                 MountData.textureWidth = MountData.backTexture.Width() + 20;
                 MountData.textureHeight = MountData.backTexture.Height();
+            }
+        }
+
+        public override void UpdateEffects(Player player)
+        {
+            if (dashCooldown > 0)
+            {
+                dashCooldown--;
+            }
+
+            if (dashTimeLeft > 0)
+            {
+                dashTimeLeft--;
+                player.velocity.X = player.direction * DashSpeed;
+
+                Rectangle hitbox = new Rectangle((int)(player.position.X + player.velocity.X), (int)(player.position.Y + player.velocity.Y), player.width, player.height);
+                for (int i = 0; i < Main.maxNPCs; i++)
+                {
+                    NPC target = Main.npc[i];
+                    if (target.active && !target.friendly && target.Hitbox.Intersects(hitbox))
+                    {
+                        NPC.HitInfo hitInfo = new NPC.HitInfo{
+                            Damage = DashDamage,
+                            Knockback = DashKnockBack,
+                            HitDirection = player.direction
+                        };
+                        target.StrikeNPC(hitInfo);
+                    }
+                }
+
+                // 生成粒子特效
+                for (int i = 0; i < 10; i++) // 每帧生成10个粒子
+                {
+                    Vector2 dustPosition = player.Center + new Vector2(Main.rand.Next(-20, 5), Main.rand.Next(-20, 5));
+                    Dust.NewDust(dustPosition, 0, 0, DustID.Snow, player.velocity.X * 0.5f, player.velocity.Y * 0.5f, 100, default, 1.5f);
+                }
+            }
+            else if (dashCooldown == 0)
+            {
+                // 检测冲刺按键 (例如 X 键)
+                if (PlayerInput.Triggers.JustPressed.MouseRight)
+                {
+                    dashTimeLeft = DashDuration;
+                    dashCooldown = DashCooldown;
+                }
             }
         }
     }

@@ -11,3 +11,5 @@ Buffs: {
 		DisplayName: 云海鹿
 	}
 }
+
+Projectiles.PlayerAfterimage.DisplayName: Player Afterimage

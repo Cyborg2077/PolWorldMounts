@@ -20,11 +20,11 @@ namespace PolWorldMounts.Content.Items.Mounts
 			Item.mountType = ModContent.MountType<FenglopeMount>();
 		}
 
-		// Please see Content/ExampleRecipes.cs for a detailed explanation of recipe creation.
-
         public override void AddRecipes() {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.DirtBlock, 1);
+            recipe.AddIngredient(ItemID.Wood, 10);      
+            recipe.AddIngredient(ItemID.StoneBlock, 10);
+            recipe.AddIngredient(ItemID.Sapphire, 5);
             recipe.Register();
         }
 	}

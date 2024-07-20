@@ -1,4 +1,3 @@
-
 using PolWorldMounts.Content.Mounts;
 using Terraria;
 using Terraria.ModLoader;
