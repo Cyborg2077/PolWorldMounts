@@ -1,24 +1,38 @@
-Polworld Fenglope Mod
+Fenglope and Rushoar Mounts Mod - Version Updates
 
-Crafting Materials: 10 Wood + 10 Stone + 5 Sapphires
-Features:
+Note: If you equip Water Walking Boots, the mounts can also walk on water!
 
-Double Jump Compatibility: If you equip items like the Cloud in a Bottle or any other gear that grants extra jumps, the Cloud Deer will be able to utilize these additional jumps as well.
-Water Walking Ability: When wearing Water Walking Boots, the Cloud Deer gains the ability to traverse across water surfaces without sinking.
+v0.1 Update:
+1. Added Fenglope mount! Crafting recipe: 10 Wood + 10 Stone + 5 Sapphire
+2. When equipped with a Cloud in a Bottle, the Fenglope can perform a double jump.
 
-v0.2 Update
-Dash with Right-Click: Players can now dash by single-clicking the right mouse button. The dash has a cooldown of 10 seconds.
-Collision Damage and Knockback: Dashing now deals 50 collision damage and knockback to enemies.
+v0.2 Update:
+1. Right-click to dash with a 10-second cooldown.
+2. During dashing, the Fenglope deals 50 collision damage and knockback.
 
-Update v0.3
-Double jumping no longer requires the Cloud in a Bottle.
-Base speed increased to 77, dash speed remains unchanged.
+v0.3 Update:
+1. No need for Cloud in a Bottle to perform a double jump.
+2. Normal speed increased to 77; dash speed remains the same.
+
+v0.5 Update:
+1. Added Rushoar mount! Crafting recipe: 10 Wood + 10 Stone + 5 Sapphire
+2. The Rushoar deals 50 collision damage and knockback while dashing and destroys ordinary trees in its path (excluding special trees like VanityTreeSakura).
+
+TODO:
+1. Add more mounts and differentiate crafting recipes for each.
+2. Create a unique crafting station for making mounts.
+3. Introduce additional gameplay features.
+
+This is my first time developing a mod, hope you have fun
 
 ---------------------
 
-幻兽帕鲁云海鹿Mod，制作材料：10个木材 + 10个石头 + 5个蓝宝石
-如果你装备云朵瓶或者其他可以增加跳跃次数的视频，云海鹿同样能享受到额外的跳跃次数
-如果你装备水上漂靴，云海鹿同样可以水上漂
+幻兽帕鲁坐骑Mod，现已添加了云海鹿、草莽猪坐骑
+如果你装备水上漂靴，坐骑同样可以水上漂
+
+v0.1更新
+1. 添加了云海鹿走起，合成配方：10个木材 + 10个石头 + 5个蓝玉
+2. 当你装备了云瓶，那么云海鹿可以进行二段跳
 
 v0.2更新
 1. 单击鼠标右键进行冲刺，冲刺拥有10秒CD
@@ -27,3 +41,12 @@ v0.2更新
 v0.3更新
 1. 不再需要云朵瓶来进行二段跳
 2. 常态速度提高为77，冲刺速度不变
+
+v0.5更新
+1. 添加了草莽猪坐骑，合成配方：10个木材 + 10个石头 + 5个蓝玉
+2. 草莽猪冲刺状态下造成50点碰撞伤害以及击退，同时会摧毁沿途路上的普通树木（一些特殊的树木除外，例如樱花树、宝石树等）
+
+TODO:
+1. 添加更多坐骑、区分不同坐骑的合成配方
+2. 为制作帕鲁坐骑添加独特的工作台物块
+3. 更多的玩法

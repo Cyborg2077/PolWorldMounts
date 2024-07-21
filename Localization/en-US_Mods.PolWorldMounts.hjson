@@ -1,7 +1,12 @@
 Items: {
 	FenglopeMountItem: {
-		Tooltip: ""
-		DisplayName: 出来吧 云海鹿！！
+		Tooltip: 出来吧 云海鹿！！
+		DisplayName: 帕鲁球！
+	}
+
+	RushoarMountItem: {
+		Tooltip: 出来吧 草莽猪！！
+		DisplayName: 帕鲁球！
 	}
 }
 
@@ -13,6 +18,16 @@ Buffs: {
 
 	FenglopeExhaustedBuff: {
 		Description: 云海鹿刚刚冲刺完，现在需要休息一下。
+		DisplayName: 筋疲力尽
+	}
+
+	RushoarMountBuff: {
+		Description: 正在骑着草莽猪，猪突猛进！
+		DisplayName: 草莽猪
+	}
+
+	RushoarExhaustedBuff: {
+		Description: 草莽猪暂时不能冲刺了，需要休息！
 		DisplayName: 筋疲力尽
 	}
 }
