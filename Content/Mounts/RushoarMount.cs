@@ -44,7 +44,7 @@ namespace PolWorldMounts.Content.Mounts
             MountData.xOffset = 20;
             MountData.yOffset = -12;
             MountData.playerHeadOffset = 22;
-            MountData.bodyFrame = 0;
+            MountData.bodyFrame = 3;
             // Standing
             MountData.standingFrameCount = 0;
             MountData.standingFrameDelay = 12;

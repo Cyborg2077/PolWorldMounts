@@ -1,12 +1,17 @@
 Items: {
 	FenglopeMountItem: {
 		Tooltip: 出来吧 云海鹿！！
-		DisplayName: 帕鲁球！
+		DisplayName: 云海鹿
 	}
 
 	RushoarMountItem: {
 		Tooltip: 出来吧 草莽猪！！
-		DisplayName: 帕鲁球！
+		DisplayName: 草莽猪
+	}
+
+	JetragonMountItem: {
+		Tooltip: 出来吧 空涡龙！！
+		DisplayName: 空涡龙
 	}
 }
 
@@ -29,6 +34,11 @@ Buffs: {
 	RushoarExhaustedBuff: {
 		Description: 草莽猪暂时不能冲刺了，需要休息！
 		DisplayName: 筋疲力尽
+	}
+
+	JetragonMountBuff: {
+		DisplayName: Jetragon Mount Buff
+		Description: Mods.PolWorldMounts.Buffs.JetragonMountBuff.Description
 	}
 }
 
