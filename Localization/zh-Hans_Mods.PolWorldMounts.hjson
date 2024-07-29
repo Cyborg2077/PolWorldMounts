@@ -1,0 +1,50 @@
+Items: {
+	FenglopeMountItem: {
+		// Tooltip: 出来吧 云海鹿！！
+		// DisplayName: 云海鹿
+	}
+
+	RushoarMountItem: {
+		// Tooltip: 出来吧 草莽猪！！
+		// DisplayName: 草莽猪
+	}
+
+	JetragonMountItem: {
+		// Tooltip: 出来吧 空涡龙！！
+		// DisplayName: 空涡龙
+	}
+
+	PolworldBasicWorkBenchItem: {
+		// Tooltip: 用于制作帕鲁装置的工作台
+		// DisplayName: 帕鲁装置工作台
+	}
+}
+
+Buffs: {
+	FenglopeMountBuff: {
+		// Description: 该生物正在骑着云海鹿兜风，芜湖~
+		// DisplayName: 云海鹿
+	}
+
+	FenglopeExhaustedBuff: {
+		// Description: 云海鹿刚刚冲刺完，现在需要休息一下。
+		// DisplayName: 筋疲力尽
+	}
+
+	RushoarMountBuff: {
+		// Description: 正在骑着草莽猪，猪突猛进！
+		// DisplayName: 草莽猪
+	}
+
+	RushoarExhaustedBuff: {
+		// Description: 草莽猪暂时不能冲刺了，需要休息！
+		// DisplayName: 筋疲力尽
+	}
+
+	JetragonMountBuff: {
+		// DisplayName: 空涡龙
+		// Description: 正在骑乘空涡龙~
+	}
+}
+
+// Projectiles.PlayerAfterimage.DisplayName: Player Afterimage

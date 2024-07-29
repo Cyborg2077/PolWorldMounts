@@ -62,7 +62,7 @@ namespace PolWorldMounts.Content.Mounts
             MountData.inAirFrameDelay = 12;
             MountData.inAirFrameStart = 1;
             // Idle
-            MountData.idleFrameCount = 4;
+            MountData.idleFrameCount = 0;
             MountData.idleFrameDelay = 12;
             MountData.idleFrameStart = 0;
             MountData.idleFrameLoop = true;

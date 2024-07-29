@@ -1,4 +1,6 @@
+using PolWorldMounts.Content.Items.WorkBench;
 using PolWorldMounts.Content.Mounts;
+using PolWorldMounts.Content.Tiles;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
@@ -25,6 +27,9 @@ namespace PolWorldMounts.Content.Items.Mounts
             recipe.AddIngredient(ItemID.Wood, 10);      
             recipe.AddIngredient(ItemID.StoneBlock, 10);
             recipe.AddIngredient(ItemID.Sapphire, 5);
+            recipe.AddIngredient(ItemID.Leather, 10);
+            recipe.AddIngredient(ItemID.Vertebrae, 5);
+			recipe.AddTile(Mod, "PolworldBasicWorkBench");
             recipe.Register();
         }
 	}

@@ -13,6 +13,11 @@ Items: {
 		Tooltip: 出来吧 空涡龙！！
 		DisplayName: 空涡龙
 	}
+
+	PolworldBasicWorkBenchItem: {
+		Tooltip: 用于制作帕鲁装置的工作台
+		DisplayName: 帕鲁装置工作台
+	}
 }
 
 Buffs: {
@@ -37,8 +42,8 @@ Buffs: {
 	}
 
 	JetragonMountBuff: {
-		DisplayName: Jetragon Mount Buff
-		Description: Mods.PolWorldMounts.Buffs.JetragonMountBuff.Description
+		DisplayName: 空涡龙
+		Description: 正在骑乘空涡龙~
 	}
 }
 
