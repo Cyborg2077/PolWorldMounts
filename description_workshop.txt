@@ -2,8 +2,12 @@ Polworld Mounts Mod - Version Updates
 
 Current mounts added: Fenglope, Rushoar, Jetragon
 
-v0.6 Update:
+Version 0.7 Update
+1. Jetragon now has three new abilities: Flare Storm (Z key), Beam Comet (X key), and Dragon Meteor (C key). Flare Storm will attract nearby hostile NPCs, Dragon Meteor will fire in the direction of the mouse, and Beam Comet will also fire in the direction of the mouse and then automatically track nearby enemies.
+2. Fenglope and Rashoar's dashes are now bound to the Z key.
+3. More mounts and skills will be added in future updates.
 
+v0.6 Update:
 1. Added Jetragon mount. Crafting recipe: 10 Lunar Bars + 20 Silk + 5 Sapphires. Requires Polworld Device Workbench.
 2. Added Polworld Device Workbench. Crafting materials: 30 Wood + 10 Silk + 10 Sapphires.
 3. Modified the crafting recipes for Rushoar and Fenglope:
@@ -22,6 +26,12 @@ I work a 9-9-5 job on weekdays and only have time to develop on weekends. Please
 ---------------------
 
 幻兽帕鲁坐骑Mod，现已添加了云海鹿、草莽猪、空涡龙
+
+v0.7更新
+1. 为空涡龙增加了三个技能：烈焰风暴（Z键）、光束彗星（X键）、龙彗星（C键）。烈焰风暴会吸附周围的敌对NPC、龙彗星会沿鼠标方向发射、光束彗星会沿鼠标方向发射，随后自动追踪周围敌怪。
+2. 云海鹿和草莽猪的冲刺改为Z键。
+3. 后续会添加更多坐骑，以及更多的技能。
+
 
 v0.6更新
 1. 增加了空涡龙坐骑，合成配方：10个夜明锭 + 20个丝绸 + 5个蓝玉，需要帕鲁装置制作台

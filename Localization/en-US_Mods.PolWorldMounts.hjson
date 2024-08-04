@@ -45,6 +45,37 @@ Buffs: {
 		DisplayName: 空涡龙
 		Description: 正在骑乘空涡龙~
 	}
+
+	JetragonBeamCometBuff: {
+		DisplayName: 光束彗星正处于CD中
+		Description: 光束彗星正处于CD中
+	}
+
+	JetragonFlareStormBuff: {
+		DisplayName: 烈焰风暴正处于CD中
+		Description: 烈焰风暴正处于CD中
+	}
+
+	JetragonMeteorBuff: {
+		DisplayName: 龙彗星正处于CD中
+		Description: 龙彗星正处于CD中
+	}
 }
 
-Projectiles.PlayerAfterimage.DisplayName: Player Afterimage
+Projectiles: {
+	PlayerAfterimage.DisplayName: Player Afterimage
+	BeamCometProjectile.DisplayName: Beam Comet Projectile
+	DragonMeteorProjectile.DisplayName: Dragon Meteor Projectile
+	FlareStormProjectile.DisplayName: Flare Storm Projectile
+}
+
+Configs: {
+	PolworldModConfig: {
+		MountDashKey: {
+			Tooltip: ""
+			Label: Mount Dash Key
+		}
+
+		DisplayName: Polworld Mod Config
+	}
+}

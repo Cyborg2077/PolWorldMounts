@@ -1,3 +1,3 @@
 displayName = Polworld Mounts | 幻兽帕鲁-坐骑合集
 author = Kyle
-version = 0.6
+version = 0.7

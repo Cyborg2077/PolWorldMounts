@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PolWorldMounts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a825d160ca8d521226a8618fe8d4d49f134d89c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d908fa66936d0a8a8419e5dd6997d92811f530a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PolWorldMounts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PolWorldMounts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

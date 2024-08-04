@@ -1,0 +1,8 @@
+{
+  "prettier.semi": true, // 句尾是否填加分号
+  "prettier.singleQuote": false, //是否使用单引号
+  "prettier.trailingComma": "none", //禁止随时添加逗号
+  "prettier.printWidth": 200, //每行代码的限制长度
+  "prettier.proseWrap": "never", // 文本换行
+  "prettier.bracketSpacing": true // 在对象字面量的花括号内侧使用空格作为间隔
+}

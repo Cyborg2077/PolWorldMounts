@@ -4,11 +4,15 @@ using Terraria.ModLoader;
 using Terraria.ID;
 using Terraria.GameInput;
 using System.Linq;
+using Microsoft.Xna.Framework.Input;
+using PolWorldMounts.Content;
 
 namespace PolWorldMounts.Content.Mounts
 {
     public class FenglopeMount : ModMount
     {
+        
+        private Keys mountDashKey;
         private const int DashCooldown = 60; // 冲刺冷却时间，单位：帧
         private const int DashDuration = 120; // 冲刺持续时间，单位：帧
         private const float DashSpeed = 30f; // 冲刺速度
@@ -71,6 +75,8 @@ namespace PolWorldMounts.Content.Mounts
             MountData.swimFrameDelay = MountData.inAirFrameDelay;
             MountData.swimFrameStart = MountData.inAirFrameStart;
 
+
+            mountDashKey = ModContent.GetInstance<PolworldModConfig>().MountDashKey;
             if (!Main.dedServ)
             {
                 MountData.textureWidth = MountData.backTexture.Width() + 20;
@@ -115,7 +121,8 @@ namespace PolWorldMounts.Content.Mounts
             }
             else if (dashCooldown == 0 && !player.HasBuff(ModContent.BuffType<Buffs.FenglopeExhaustedBuff>()))
             {
-                if (PlayerInput.Triggers.JustPressed.MouseRight)
+                mountDashKey = ModContent.GetInstance<PolworldModConfig>().MountDashKey;
+                if (Main.keyState.IsKeyDown(mountDashKey))
                 {
                     dashTimeLeft = DashDuration;
                     dashCooldown = DashCooldown;
